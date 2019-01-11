@@ -80,7 +80,7 @@ $(document).ready(function(){
         var sitcomSelected = $(this).attr("data-title"); //set the data-title information for the button selected as the variable value to be used in the API grab
 
         // console.log(this);
-
+    
         console.log("Will get API for: " + sitcomSelected);
 
 
