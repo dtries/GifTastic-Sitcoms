@@ -85,7 +85,7 @@ $(document).ready(function(){
 
 
         // Construct Giphy search term for sitcom title
-        var queryURL = 'http://api.giphy.com/v1/gifs/search?q='  + sitcomSelected +'&api_key=ovXsXFMTBjk5IddjODlS8KJHu7TOcTN3&limit=10';
+        var queryURL = 'https://api.giphy.com/v1/gifs/search?q='  + sitcomSelected +'&api_key=ovXsXFMTBjk5IddjODlS8KJHu7TOcTN3&limit=10';
 
 
 
