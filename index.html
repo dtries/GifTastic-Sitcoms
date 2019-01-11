@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Giftastic Sitcoms</title>
+
+  <!-- Reset css -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+
+  <!-- jQuery Code Link-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Link-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+  <!-- CSS Style Sheet Link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <br>
+
+    <!-- Jumbotron Title Header -->
+    <div class="jumbotron">
+      <h1 class="text-center">Sitcom Giphy King &nbsp; <i class="fas fa-crown"></i></h1>
+      <h3 class="text-center tag-line">"Your Favorite Sitcom Moments Now in GIF Form!"</h3>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body how-to">
+            <h3 class="text-center">
+              <strong>Instructions</strong>: Click on one of the buttons below to see gifs for that sitcom. Don't see your favorite? Use our search function to add your own!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Title Button Block -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-2">
+                <img class="img-fluid thumbnail center-block" src= "./assets/images/Sitcom_Main.jpg"
+                  alt="Sitcom Title">
+              </div>
+              <div class="col-sm-6 sitcom-buttons">
+                  <span class="Titled-Buttons" id=""></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gif Div Displays each Gif and its rating -->
+    <div class="row">
+        <div class="col-lg-12">
+          <div class="card giphy-area">
+            <h4 id="gif-area-message"><strong>Your GIFs Will Appear Here!</strong>
+            </h4>
+            <span class="start-stop">Click on Each Image to Start or Stop Gif Animation</span>
+                <div class="card-body" id="gifs-here">   
+                </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Add Additional Sitcoms -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card search-area">
+          <div class="card-header">
+            <h3><strong>Find Your Favorites!</strong></h3>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group row">
+                <label for="search-title"></label>
+                <input class="form-control" id="sitcom-title" type="text" placeholder="Enter Sitcom Title">
+              </div>
+              <input class="btn btn-primary" id="title-search" type="button" value="Search">
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="./assets/js/giftastic.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+.button_with_title {
+    margin-bottom: 1em;
+    padding: 6;
+    color: #FBCD2C;
+    background-color: #3E568E;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 500%;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 175%;
+}
+
+
+.gif-div-holder {
+    border: solid 2px #EF2D97;
+    margin-bottom: 1%;
+    margin-right: 50%;
+}
+/* .giphy-image-still {
+    border: solid 4px black;
+    visibility: visible; */
+    
+}
+
+.giphy-image-still:hover{
+    border: solid 7px yellow;
+
+}
+
+/* .giphy-image-move {
+    border: solid 4px black;
+    visibility: hidden; */
+    
+}
+
+.giphy-image-move:hover{
+    border: solid 7px yellow;
+}
+
+.container {
+    background-color: #8FA649;
+    font-family: 'Indie Flower', cursive;
+}
+
+.jumbotron,
+.card {
+    background-color: #FBCD2C;
+}
+
+.jumbotron {
+    color: #3E568E;
+}
+
+.fa-crown {
+    color: #3E568E;
+}
+
+.tag-line {
+    font-size: 400%;
+    /* font-weight: bold; */
+}
+
+#gif-area-message {
+    padding: 2% 0 0 2%;
+    font-size: 175%;
+}
+
+.giphy-area,
+.how-to {
+    background-color: #3E568E;
+    color: #FBCD2C;
+}
+
+.card-header,
+.btn {
+    background-color: #EF2D97;
+    color: #FBCD2C;
+    /* font-size: 24px; */
+}
+
+.search-area {
+    background-color: #FBCD2C;
+    border: solid 3px #EF2D97;
+    color: #FBCD2C;
+
+}
+
+.form-group {
+    padding: 0 1.75% 0 1.75%;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #3E568E;
+
+}
+
+.rating-text {
+    font-size: 150%;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.start-stop {
+    padding-left: 4%;
+    font-size: 175%;
+}
+
+
